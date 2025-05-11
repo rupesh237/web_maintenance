@@ -18,6 +18,7 @@
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
       display: inline-block;
+      max-width: 600px;
     }
     h1 {
       color: #e74c3c;
@@ -27,9 +28,23 @@
       margin: 20px 0;
       color: #2c3e50;
     }
-    .phone {
-      margin-top: 20px;
-      font-size: 1.2em;
+    .contact {
+      margin-top: 30px;
+      font-size: 1.1em;
+    }
+    .contact p {
+      margin: 10px 0;
+    }
+    .whatsapp-link {
+      display: inline-flex;
+      align-items: center;
+      color: #25D366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .whatsapp-link img {
+      width: 24px;
+      margin-right: 8px;
     }
   </style>
 </head>
@@ -37,14 +52,31 @@
   <div class="container">
     <h1>🚧 Site Under Maintenance</h1>
     <p>We are currently performing scheduled maintenance. Please check back soon.</p>
-    
+
     <div class="timer" id="countdown">
       00:00:00
     </div>
 
-    <p class="phone">
-      📞 For assistance, please call: <strong>+123-456-7890</strong>
-    </p>
+    <div class="contact">
+      <p>📞 For assistance, call: <strong>+965 9678813</strong></p>
+      <p>📞 For assistance, call: <strong>+965 66317641</strong></p>
+      
+      <p>
+        <a href="https://wa.me/9659678813" target="_blank" class="whatsapp-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+          +965 9678813
+        </a>
+      </p>
+      <p>
+        <a href="https://wa.me/96566317641" target="_blank" class="whatsapp-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+          +965 66317641
+        </a>
+      </p>
+
+      <p>📧 Email: <a href="mailto:stargroupkuwait@gmail.com">stargroupkuwait@gmail.com</a></p>
+      <p>📍 Address: Salmiya Block-9, Al Salam Mall  Kuwait office no-42</p>
+    </div>
   </div>
 
   <script>
